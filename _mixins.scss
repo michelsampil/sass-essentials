@@ -1,0 +1,13 @@
+// A mixin is a code snipped and we can use it anywhere. remember DRY!
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* $radius is the parameter of the function */
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
