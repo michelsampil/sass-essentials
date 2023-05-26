@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["scss-styles.scss","_mixins.scss","_card.scss","_variables.scss"],"names":[],"mappings":"AAAA;ACQA;ACRA;EACE;EACA;EACA;EACA;EACA;EDMA,eCLuB;AAAS;;AAGhC;EACI;EACA;EACA;;AAGJ;EACI,SCZI;;ADeR;EACI;;AAGJ;EACI;EACA,OCpBM;;ADwBV;EAEI,kBCzBY;;AD6BZ;EACI;;;AF9BV;EACE,aGLM,kCHKe;EACrB,kBGLc;EHMd,SGLQ;EHMR;ECPA;EACA;EACA;ADMwB","file":"styles.css"}

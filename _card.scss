@@ -1,0 +1,41 @@
+.card {
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 5px 5px 5px 5px #000;
+  @include border-radius(0.5rem); /* using the mixins function */
+  
+  // at this level there are multiples nested selectors (img, .card_content etc...)
+  img {
+      height: 15rem;
+      background-size: cover;
+      background-position: center center;
+  }
+
+  .card_content {
+      padding: $spacing;
+  }
+
+  .card_title {
+      color: black;
+  }
+
+  .card_description {
+      margin: 0;
+      color: $dark-grey;
+  }
+
+  // using the '&' symbol we can concatenate multiples card-names
+  &_dark {
+
+      background-color: $dark-background;
+      
+      // Nested selector will be applied to child of 
+      // [class-name_dark] with .card_title a class.
+      .card_title {
+          color: purple;
+      }
+  }
+
+}
