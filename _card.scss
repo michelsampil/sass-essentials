@@ -27,12 +27,14 @@
   }
 
   // using the '&' symbol we can concatenate multiples card-names
+  // _[some-variation] is a common notation to express variation class
   &_dark {
 
+      //dark background is settled for every [class-name]_dark class
       background-color: $dark-background;
       
-      // Nested selector will be applied to child of 
-      // [class-name_dark] with .card_title a class.
+      // Nested selector will be applied to a descendant of 
+      // [class-name]_dark with .card_title as class.
       .card_title {
           color: purple;
       }
