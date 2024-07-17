@@ -7,4 +7,6 @@ compare both syntax and notation.
 
 # to compile .scss and .sass files
 
-run sass --watch scss-styles.scss styles.css
+................................👇 css file (output)
+sass --watch scss-styles.scss styles.css
+.................👆 sass file to translate (input)

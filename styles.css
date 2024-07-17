@@ -3,6 +3,7 @@
 .card {
   background-color: white;
   width: 20rem;
+  min-height: 30rem;
   overflow: hidden;
   margin: 2rem;
   box-shadow: 5px 5px 5px 5px #000;
@@ -34,7 +35,8 @@
 body {
   font-family: "Poppins", Helvetica, sans-serif; /* variable usage */
   background-color: #ab99ca;
-  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   display: flex;
   align-items: center;
