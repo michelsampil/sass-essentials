@@ -1,16 +1,15 @@
 /* file import */
 
-@import 'variables';
-@import 'mixins';
-@import 'card';
+@import "variables";
+@import "mixins";
+@import "card";
 
 body {
   font-family: $fonts; /* variable usage */
   background-color: $primary-color;
-  padding: $spacing;
+  // padding: $spacing;
+  display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   @include flex-center(); /* using the mixins function */
 }
-
-
-
